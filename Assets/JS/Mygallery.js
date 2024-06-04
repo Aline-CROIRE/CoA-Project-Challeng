@@ -5,12 +5,12 @@ function handleResize() {
   if (window.innerWidth <= 600) {
     containers.forEach((container) => {
       const minImage = container.getAttribute("data-min");
-      container.querySelector("images").src = minImage;
+      container.querySelector("/Assets/images").src = minImage;
     });
   } else {
     containers.forEach((container) => {
       const fullImage = container.getAttribute("data-full");
-      container.querySelector("images").src = fullImage;
+      container.querySelector("/Assets/images").src = fullImage;
     });
   }
 }
