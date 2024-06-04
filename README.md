@@ -37,4 +37,16 @@ To use the photo gallery:
 3.
 ## Enjoy browsing through the photo collection.
 
+# Coding Challenge 
+ This Repo also contain Two coding Challenge
+
+ ## String Transformation
+Given a string, is transformed based on the following rules:
+● If the length of the string is divisible by 3,  the entire string is reversed.
+● If the length of the string is divisible by 5, each character is replaced  with its ASCII code.
+● If the length of the string is divisible by both 3 and 5,  both operations are performed in the
+order specified above.
+● If none of condition is meet string remains constant as it was
+
+
 
